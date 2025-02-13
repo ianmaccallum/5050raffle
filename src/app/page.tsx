@@ -231,7 +231,7 @@ const RaffleApp: React.FC = () => {
       <Head>
         <title>50/50 Raffle App - Fair and Transparent Fundraising</title>
         <meta name="description" content="Run a fair and transparent 50/50 raffle for your fundraising event. Easy entry, automatic winner selection, and detailed statistics. Perfect for charities and fundraisers." />
-        <meta name="keywords" content="50/50 raffle, fundraising, charity raffle, electronic raffle, fundraising tool" />
+        <meta name="keywords" content="50/50 raffle, calculator, generator, fundraising, charity raffle, electronic raffle, fundraising tool" />
         <meta property="og:title" content="50/50 Raffle App" />
         <meta property="og:description" content="Run a fair and transparent 50/50 raffle for your fundraising event. Easy entry, automatic winner selection, and detailed statistics." />
         <meta property="og:type" content="website" />

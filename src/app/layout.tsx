@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "50/50 Raffle",
+  title: "50/50 Raffle Calculator",
   description: "Host your own 50/50 raffle",
 };
 
