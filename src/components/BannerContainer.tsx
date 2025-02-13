@@ -12,7 +12,7 @@ const BannerContainer = () => {
         />
         <GithubBanner
           title="Check out the code"
-          url="https://github.com/example/repo"
+          url="https://github.com/ianmaccallum/5050raffle"
           cta="View on GitHub"
         />
       </div>
