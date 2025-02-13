@@ -241,9 +241,6 @@ const RaffleApp: React.FC = () => {
         <div className="flex justify-between items-center mb-6">
           <h1 className="text-3xl font-bold dark:text-white">50/50 Raffle</h1>
           <div className="flex items-center gap-4">
-            <div className="text-gray-600 dark:text-gray-400">
-              Total Draws: {drawCount}
-            </div>
             <button
               onClick={() => setShowHowItWorks(!showHowItWorks)}
               className="text-blue-500 hover:text-blue-400 dark:text-blue-400 dark:hover:text-blue-300 flex items-center gap-1"
@@ -494,7 +491,7 @@ const RaffleApp: React.FC = () => {
         {/* Results */}
         {result && (
           <div className="bg-green-50 dark:bg-green-900/30 border border-green-200 dark:border-green-800 rounded p-6">
-            <h2 className="text-2xl font-bold mb-4 dark:text-white">Raffle Results</h2>
+            <h2 className="text-2xl font-bold mb-4 dark:text-white">Raffle Results (Draw {drawCount})</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
                 <h3 className="font-bold mb-2 dark:text-white">Summary</h3>
