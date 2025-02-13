@@ -278,7 +278,7 @@ const RaffleApp: React.FC = () => {
 
               <div>
                 <h3 className="font-bold mb-2 dark:text-white">4. Transparency</h3>
-                <p className="dark:text-gray-300">All entries are visible in the table below. The draw process is automated and random, ensuring complete fairness. Results show full statistics including the winner's original contribution and winning chances.</p>
+                <p className="dark:text-gray-300">All entries are visible in the table below. The draw process is automated and random, ensuring complete fairness. Results show full statistics including the winner&apos;s original contribution and winning chances.</p>
               </div>
             </div>
           </div>
